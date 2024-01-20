@@ -1,0 +1,116 @@
+#solüstlogo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+    
+}
+#üstkısım{
+    background-color: blanchedalmond;
+}
+.logo {
+padding: 0%;
+margin: 0%;
+  }
+  a {
+    color: #bd9b71;
+    text-decoration: none;
+    position: relative; 
+    text-decoration-color: black;
+  }
+  
+  a::after {
+    color: #bd9b71;
+    content: "";
+    position: absolute;
+    left: 0; 
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px solid black;  
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  a:hover::after {
+    color: #bd9b71;
+    transform: scaleX(1);
+  }
+#restorantaçıklama{
+    background-color: cadetblue;
+    font-family: Fantasy;
+   
+    line-height: 1.8;
+}
+
+#incele{
+  
+  margin: 0 auto;
+  display: block;
+}
+#menüler{
+  color: blue;
+  text-align: center;
+}
+/* .arkaplan {
+  width: 100%;
+  height: 500px;
+  
+  background-image: url('İMG/masa-rezervasyon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+} */
+
+@media (max-width: 768px) {
+  .arkaplan { 
+    height: 300px;
+  }
+}
+.stickybar {
+  /* width: 100%;
+  height: 500px; */
+  
+  background-color: #6a204b;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+}
+.renk{
+  color: #bd9b71;
+
+}
+.resim {
+  transition: transform .2s; 
+}
+
+.resim:hover {
+  transform: scale(1.2); 
+}
+.renklendirme{
+  background-color: transparent !important;
+  border: 0.1rem solid #bd9b71 !important;
+}
+.btn-special {
+  position: relative; 
+  background-color: #4CAF50; 
+  transition: background-color 0.3s;
+}
+
+.btn-special:hover {
+  background-color: #8e3e3e;
+  width: 50%;
+}
+
+.btn-special::after {
+  content: "\2192";  
+  position: absolute;
+  right: -20px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.btn-special:hover::after {
+  right: -40px;
+  opacity: 1;
+}
+
