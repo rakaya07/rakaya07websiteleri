@@ -4,6 +4,6 @@ portfolyo sitesi : https://rakaya07.github.io/rakaya07websiteleri/PORTFOLYOLARIM
 
 restorant sitesi : https://rakaya07.github.io/rakaya07websiteleri/restorant/
 
-e ticaret sitesi : 
+e ticaret sitesi : https://rakaya07.github.io/rakaya07websiteleri/KAYA%20MOB%C4%B0LYA/
 
-e ticaret sitesi 2 : 
+e ticaret sitesi 2 : https://rakaya07.github.io/rakaya07websiteleri/KAYA%20T%C4%B0CARET/
