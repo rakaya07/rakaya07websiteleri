@@ -1,0 +1,157 @@
+/* #kenarlık{
+    border: solid 1px;
+    border-color: black;
+} */
+#bosluk{
+    margin-top:6% ;
+    
+}
+#isim{
+    text-align: center;
+    margin-top: 2%;
+    font-size:xx-large;
+    font-family: sans-serif;
+        background: linear-gradient(to left, red, blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+.social-icons {
+    width: 100%;
+    display: flex;
+  }
+  
+  .icon {
+    width: 100%;
+    margin-right: 5%;
+    margin-top: 5%;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+  }
+  
+  .icon .fa {
+    font-size: 400%;  
+  }
+  
+  .follow {
+     transform: scale(0);
+     transition: .3s;
+     
+     
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     
+     background: #fff;
+     border-radius: 5px;
+     
+     display: flex;
+     align-items: center;
+     justify-content: space-between; 
+     padding: 10px;
+  }
+  
+  .icon:hover .follow {
+    transform: scale(1);
+  }
+  
+  .close {
+    color: #aaa;
+    font-size: 10%;
+  }
+  .youtube {
+    color: #FF0000;
+  }
+  
+  .instagram {
+    color: #C13584;
+  }
+  
+  .whatsapp {
+    color: green;}
+#logo{
+    text-align: center;
+}
+#nokta_kaldır{
+  list-style-type: none;
+}
+#urungorsel{
+  width: 70%;
+}
+.cizgi_boyut{
+  width: 73%;
+  opacity: inherit;
+  display: block;
+ 
+  margin-left: 0;
+
+}
+#top{
+  margin-top: 5%;
+  background-color: whitesmoke  ;
+}
+#urun_bosluk{
+  margin-top: 2%;
+}
+#hizala{
+  margin-top: 4%;
+}
+.arka_plan{
+  position: relative;
+  left: 12%;
+}
+#cizgi{
+  opacity: inherit;
+  margin-top: 2%;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+#yön{
+ position: relative;
+ left: 60%;
+ width: 70%;
+}
+#sepet{
+position: relative;
+top: -10%;
+}
+ p {
+  overflow: hidden;
+  clear: both
+}
+.product-image img {
+  transition: transform .5s; 
+}
+
+.product-image img:hover {
+  transform: scale(1.5); 
+}
+.resim-container {
+  position: sticky;
+  top: 90%; 
+  left: 30%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+}
+.resim-container img {
+  max-width: 100%;
+  height: auto;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.cart-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.cart-icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
