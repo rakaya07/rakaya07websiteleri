@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>KAYA RESTOURANT</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/apple-touch-icon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>+90 5531202157</span></i>
+     
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span><p id="tarih"></p>
+
+          <script>
+          
+          const tarihElementi = document.getElementById("tarih");
+          const tarih = new Date().toLocaleDateString();
+          tarihElementi.innerHTML = tarih;
+          </script>
+          </span></i>
+      </div>
+
+      <div class="languages d-none d-md-flex align-items-center">
+        <ul>
+          <li>TR</li>
+          <li><a href="#">EN</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">KAYA RESTOURANT</a></h1>
+     
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">ANA SAYFA</a></li>
+          <li><a class="nav-link scrollto" href="#about">BİLGİ</a></li>
+          <li><a class="nav-link scrollto" href="#menu">MENÜ</a></li>
+          <li><a class="nav-link scrollto" href="#specials">ÖNERİ</a></li>
+          <li><a class="nav-link scrollto" href="#events">ORGANİZASYON</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">KADROMUZ</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">GALERİ</a></li>
+          
+          <li><a class="nav-link scrollto" href="#contact">İLETİŞİM</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">REZERVASYON</a>
+
+    </div>
+  </header>
+
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>HOŞGELDİNİZ<span>   KAYA RESTOURANT</span></h1>
+          <h2>SİZİNLE GEÇEN 10. YIL </h2>
+
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">MENÜMÜZ</a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">REZERVASYON OLUŞTURUN</a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/about.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>KAYA RESTOURANT İLE AİLE SICAKLIĞINI HİSSETİN</h3>
+            <p class="fst-italic">
+              Kaya Restoran'a hoş geldiniz! Sıcak ve samimi atmosferimizde, lezzetli yemeklerin ve kusursuz hizmetin keyfini çıkarabilirsiniz.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i>Ahşap masalar ve sandalyelerle döşenmiş restoranımız, rahat ve konforlu bir ortam sunar.</li>
+              <li><i class="bi bi-check-circle"></i>  Ailenizle, arkadaşlarınızla veya iş arkadaşlarınızla keyifli bir akşam geçirmek için ideal bir yerdir.</li>
+              <li><i class="bi bi-check-circle"></i> Menümüzde, Türk mutfağının en seçkin lezzetlerini bulabilirsiniz. </li>
+            </ul>
+            <p>
+              Usta şeflerimiz tarafından özenle hazırlanan her yemeğin tadına varacaksınız. Kaliteli ve taze malzemeler kullanarak, size en lezzetli deneyimi sunmayı hedefliyoruz.
+
+              Güler yüzlü ve profesyonel ekibimiz, size en iyi hizmeti sunmak için her zaman yanınızdadır. Her türlü sorunuz ve isteğiniz için bize çekinmeden ulaşabilirsiniz.
+              
+              Kaya Restoran'da, sadece lezzetli bir yemek değil, aynı zamanda unutulmaz bir deneyim yaşayacaksınız.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>NEDEN BİZ</h2>
+          <p>Neden Restoranımızı Seçmelisiniz?</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <span>01</span>
+              <h4>Sıcak ve Samimi Atmosfer: </h4>
+              <p> Kaya Restoran'a adım attığınızda, kendinizi evinizin rahatlığında hissedeceksiniz. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <span>02</span>
+              <h4> Lezzetli Yemekler</h4>
+              <p>Menümüzde, Türk mutfağının en seçkin lezzetlerini bulabilirsiniz. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span>03</span>
+              <h4>Mükemmel Hizmet:</h4>
+              <p>Güler yüzlü ve profesyonel ekibimiz, size en iyi hizmeti sunmak için her zaman yanınızdadır. </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="menu" class="menu section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>MENÜ</h2>
+          <p>EŞSİZ MENÜMÜZ</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">TÜMÜ</li>
+              <li data-filter=".filter-starters">BAŞLANGIÇLAR</li>
+              <li data-filter=".filter-salads">SALATALAR</li>
+              <li data-filter=".filter-specialty">SPESYALLER</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">ISTAKOZ</a><span>350 TL</span>
+            </div>
+            <div class="menu-ingredients">
+              EŞSİZ LEZZET 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">EKMEK FIÇISI</a><span>400 TL</span>
+            </div>
+            <div class="menu-ingredients">
+              EŞSİZ LEZZET 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Yengeç Kek</a><span>220 TL</span>
+            </div>
+            <div class="menu-ingredients">
+              EŞSİZ LEZZET 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Sezar SALATA</a><span>300 TL</span>
+            </div>
+            <div class="menu-ingredients">
+              EŞSİZ LEZZET 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Toskana Izgara</a><span>700 TL </span>
+            </div>
+            <div class="menu-ingredients">
+              EŞSİZ LEZZET 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Mozzarella SALATA</a><span>250 TL </span>
+            </div>
+            <div class="menu-ingredients">
+              EŞSİZ LEZZET 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">YUNAN SALATASI</a><span>400 TL </span>
+            </div>
+            <div class="menu-ingredients">
+              EŞSİZ LEZZET 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">FRANSIZ SALATASI </a><span>420 TL </span>
+            </div>
+            <div class="menu-ingredients">
+              EŞSİZ LEZZET 
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Istakoz Rulo</a><span>1050 TL </span>
+            </div>
+            <div class="menu-ingredients">
+              EŞSİZ LEZZET 
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Special</h2>
+          <p>SPESYALLERE GÖZ ATIN </p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Kaya'nın Spesiyali Tavuk ve Pilav</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2"> Renkli Sebzeli Kuskus Salatası</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Fırında Sebzeli Tavuk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Çıtır Kabuklu Tavuk Güveç</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Karidesli Mantar Risotto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Kaya'nın Spesiyali Tavuk ve Pilav</h3>
+                    <p class="fst-italic">Kaya'nın Spesiyali Tavuk ve Pilav, lezzetli ve doyurucu bir ana yemek seçeneğidir.</p>
+                    <p>Bu yemekte, yumuşak ve sulu tavuk parçaları, tereyağında kavrulmuş pilav ile birlikte servis edilir. Pilav, badem ve kuş üzümü ile zenginleştirilmiş olup, tavuğun lezzetini mükemmel bir şekilde tamamlar. Yanında cacık ve salata ile servis edilen bu yemek, hem öğle hem de akşam yemeği için idealdir.
+
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-1.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3> Renkli Sebzeli Kuskus Salatası</h3>
+                    <p class="fst-italic">Renkli Sebzeli Kuskus Salatası, lezzetli ve sağlıklı bir öğle veya akşam yemeği seçeneğidir. </p>
+                    <p>Bu salatada, kuskus, domates, salatalık, biber, mısır ve zeytin gibi çeşitli sebzelerle birlikte servis edilir. Sebzeler taze ve gevrek olup, salata sosuyla mükemmel bir şekilde uyum sağlar. Yanında yoğurt veya tahinli sos ile servis edilen bu salata, hem lezzetli hem de doyurucudur.
+
+                    </p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Fırında Sebzeli Tavuk</h3>
+                    <p class="fst-italic">Fırında Sebzeli Tavuk, lezzetli ve sağlıklı bir akşam yemeği seçeneğidir. </p>
+                    <p>Bu yemekte, tavuk göğsü filetoları, çeşitli sebzelerle birlikte fırında pişirilir. Sebzeler yumuşak ve lezzetli olup, tavuğun lezzetini mükemmel bir şekilde tamamlar. Yanında pilav veya makarna ile servis edilen bu yemek, hem lezzetli hem de doyurucudur.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-3.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Çıtır Kabuklu Tavuk Güveç</h3>
+                    <p class="fst-italic">Çıtır Kabuklu Tavuk Güveç, lezzetli ve doyurucu bir akşam yemeği seçeneğidir. </p>
+                    <p>Bu yemekte, tavuk parçaları, krema ve baharatlarla birlikte güveçte pişirilir. Tavuk yumuşak ve lezzetli olup, krema sosu mükemmel bir uyum sağlar. Üzerine panko ekmeği serpilip fırında kızartılan güveç, çıtır bir kabuk oluşturur. Yanında patates püresi veya pilav ile servis edilen bu yemek, hem lezzetli hem de doyurucudur.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-4.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Karidesli Mantar Risotto</h3>
+                    <p class="fst-italic">Karidesli Mantar Risotto, lezzetli ve gurme bir akşam yemeği seçeneğidir.</p>
+                    <p>Bu yemekte, pirinç, mantar ve karideslerle birlikte kremsi bir risotto hazırlanır. Risotto yumuşak ve lezzetli olup, mantar ve karides mükemmel bir uyum sağlar. Parmesan peyniri ile lezzetlendirilen risotto, hem lezzetli hem de doyurucudur.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-5.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="events" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>ORGANİZASYON</h2>
+          <p>ORAGANİZASYONLARINIZDA NEDEN BİZİ TERÇİH ETMELİSİNİZ</p>
+        </div>
+
+        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>DOĞUM GÜNÜ PARTİSİ</h3>
+                  <div class="price">
+                    <p><span>600 TL </span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Doğum günü kutlamaları için restoran seçimi, kutlamanın keyifli ve unutulmaz geçmesi için önemlidir. Restoran seçerken dikkat edilmesi gereken bazı kriterler şunlardır:
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Atmosfer: Restoranın sıcak ve samimi bir atmosfere sahip olması, kutlamaya özel bir hava katarak misafirlerin rahat hissetmelerini sağlar.  </li>
+                    <li><i class="bi bi-check-circled"></i> Menü: Menüde çeşitli damak tatlarına uygun lezzetlerin bulunması ve doğum günü pastası gibi özel seçeneklerin sunulması önemlidir.</li>
+                    <li><i class="bi bi-check-circled"></i> Hizmet: Güler yüzlü ve profesyonel bir ekip, kutlama boyunca misafirlerle ilgilenmeli ve sorunsuz bir şekilde kutlamanın gerçekleşmesini sağlamalıdır.
+                    </li>
+                  </ul>
+                  <p>
+                    Kaya Restoranı, tüm bu kriterleri karşılayan ideal bir doğum günü kutlaması mekanıdır. Sıcak ve samimi atmosferi, lezzetli yemekleri, mükemmel hizmeti, özel dekorasyon seçenekleri ve uygun fiyatlarıyla Kaya Restoranı, unutulmaz bir doğum günü kutlaması yaşamak isteyenler için doğru seçimdir.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/event-private.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>ÖZEL PARTİLER</h3>
+                  <div class="price">
+                    <p><span>500 TL </span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Kaya Restoran'da unutulmaz bir özel parti düzenlemeye ne dersiniz?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>  Özel Alan: Kaya Restoran'da özel partileriniz için ayrılabilecek özel alanlarımız mevcuttur. Bu sayede partiniz kalabalıktan uzak, mahremiyetli ve daha özel bir ortamda gerçekleşir.</li>
+                    <li><i class="bi bi-check-circled"></i> Kişiselleştirilmiş Menü: Özel partileriniz için menümüzü zevkinize ve partinin temasına göre kişiselleştirebiliriz. İstediğiniz yiyecek ve içecekleri menüye ekleyebilir, özel kokteyl ve ikramlar hazırlayabiliriz.</li>
+                    <li><i class="bi bi-check-circled"></i> Dekorasyon: Partinizin temasına uygun dekorasyonlar hazırlayabilir, mekanı özel hale getirebiliriz. Ayrıca, kendi dekorasyonlarınızı da kullanabilirsiniz.</li>
+                  </ul>
+                  <p>
+                    Kaya Restoran'da özel partiler için ses ve sahne sistemi de mevcuttur. Partinizde canlı müzik veya DJ performansı gibi eğlenceler organize edebilirsiniz.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>ÖZELLEŞTİREBİLİR PARTİLER</h3>
+                  <div class="price">
+                    <p><span>300 TL</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Kaya Restoran'da unutulmaz bir özel parti düzenlemeye ne dersiniz?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>  Özel Alan: Kaya Restoran'da özel partileriniz için ayrılabilecek özel alanlarımız mevcuttur. Bu sayede partiniz kalabalıktan uzak, mahremiyetli ve daha özel bir ortamda gerçekleşir.</li>
+                    <li><i class="bi bi-check-circled"></i> Kişiselleştirilmiş Menü: Özel partileriniz için menümüzü zevkinize ve partinin temasına göre kişiselleştirebiliriz. İstediğiniz yiyecek ve içecekleri menüye ekleyebilir, özel kokteyl ve ikramlar hazırlayabiliriz.</li>
+                    <li><i class="bi bi-check-circled"></i> Dekorasyon: Partinizin temasına uygun dekorasyonlar hazırlayabilir, mekanı özel hale getirebiliriz. Ayrıca, kendi dekorasyonlarınızı da kullanabilirsiniz.</li>
+                  </ul>
+                  <p>
+                    Kaya Restoran'da özel partiler için ses ve sahne sistemi de mevcuttur. Partinizde canlı müzik veya DJ performansı gibi eğlenceler organize edebilirsiniz.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>REZERVASYON</h2>
+        </div>
+
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="İSMİNİZ" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="MAİL ADRESİNİZ" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="TELEFON NUMARANIZ" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="date" class="form-control" id="date" placeholder="TARİH" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="time" id="time" placeholder="SAAT" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="number" class="form-control" name="people" id="people" placeholder="KİŞİ SAYINIZ" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="MESAJINIZ"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="mb-3">
+            <div class="loading">YÜKLENİYOR</div>
+            <div class="error-message"></div>
+            <div class="sent-message">REZERVASYONUNUZ OLUŞTURULDU. TEŞŞEKÜRLER</div>
+          </div>
+          <div class="text-center"><button type="submit">REZERVASYUNU OLUŞTURUN</button></div>
+        </form>
+
+      </div>
+    </section>
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>YOURMLAR</h2>
+          <p>YORUMLARIMIZI GÖRÜNTÜLEYİN</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Lezzetli yemekler, harika servis, doğum günüm için mükemmeldi!
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Özel alan, dekorasyon, yemekler - her şey şirketimizin partisi için harikaydı!                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Rahat atmosfer, ilgili personel, ailecek keyifli vakit geçirdik!                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>FOROĞRAFLARIMIZ</h2>
+          <p>RESTOURANT FOTOĞRAFLARIMIZA GÖZ ATIN </p>
+        </div>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>KADROMUZ</h2>
+          <p>UZMAN KADROMUZU KEŞFETİN</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>RAFET KAYA</h4>
+                  <span>Master Chef</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>RAFET KAYA</h4>
+                  <span>Patissier</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>RAFET KAYA</h4>
+                  <span>Cook</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>ULAŞIN</h2>
+          <p>BİZE ULAŞIN </p>
+        </div>
+      </div>
+
+      <div data-aos="fade-up">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.6203437523077!2d32.4378575!3d37.822360800000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d08167a2274c8b%3A0x4c54d042105d15c3!2sKarah%C3%BCy%C3%BCk%2C%20Pirhasan%20Sk.%20No%3A121%2C%2042140%20Meram%2FKonya!5e0!3m2!1str!2str!4v1709765070327!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>KONUM</h4>
+                <p>KONYA / MERAM</p>
+              </div>
+
+              <div class="open-hours">
+                <i class="bi bi-clock"></i>
+                <h4>AÇILIŞ SAATLERİ:</h4>
+                <p>
+                  PAZAR-PAZARTESİ<br>
+                  11:00 - 23:00
+                </p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>E-MAİL:</h4>
+                <p>kayarafet118@gmai.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>TELEFON</h4>
+                <p>+90 5531202157</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="İSMİNİZ" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="MAİL ADRESİNİZ" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="8" placeholder="MESAJINIZ" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">YÜKLENİYOR</div>
+                <div class="error-message"></div>
+                <div class="sent-message">MESAJINIZ İLETİLDİ. TEŞŞEKÜRLER!</div>
+              </div>
+              <div class="text-center"><button type="submit">MESAJI GÖNDER</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>KAYA RESTOURANT</h3>
+              <p>
+               MERAM <br>
+                KONYA<br><br>
+                <strong>TELEFON:</strong> +90 5531202157<br>
+                <strong>E-MAİL:</strong> kayarafet118@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://twitter.com/rakaya07" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/rakaya07" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/rakaya07" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.instagram.com/rakaya07" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="https://www.linkedin.com/in/rafet-kaya-45a494252/?originalSubdomain=tr" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>LİNKLER</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">ANA SAYFA</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">BİLGİ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">HİZMETLER</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">DİĞER SERVİSLERİMİZ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">GİZLİLİK POLİTİKASI</a></li>
+            </ul>
+          </div>
+
+          
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>ABONE OLUN </h4>
+            <p>ABONE OLUN VE SİZE ÖZEL İNDİRİMLERİMİZİ KAÇIRMAYIN</p>
+            <form action="" method="post">
+              <input type="email" name="MAİL ADRESİNİZ"><input type="submit" value="ABONE OL">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>KAYA RESTOURANT</span></strong>. TÜM HAKLARI SAKLIDIR
+      </div>
+      <div class="credits">
+        
+        Designed by <a href="https://www.linkedin.com/in/rafet-kaya-45a494252/?originalSubdomain=tr">RAFET KAYA </a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
